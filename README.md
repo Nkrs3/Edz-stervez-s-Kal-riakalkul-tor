@@ -1,0 +1,1 @@
+# Edz-stervez-s-Kal-riakalkul-tor
