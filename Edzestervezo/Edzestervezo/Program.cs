@@ -46,6 +46,37 @@ namespace FitProgram
             }
 
 
+
+            Console.WriteLine("\nVálassz edzéscélt:");
+            Console.WriteLine("1 - Állóképesség javítása");
+            Console.WriteLine("2 - Izomtömeg növelése");
+            Console.WriteLine("3 - Fogyás");
+
+            while (true)
+            {
+                Console.Write("Cél sorszáma (1-3): ");
+                if (int.TryParse(Console.ReadLine(), out fitcel) && fitcel >= 1 && fitcel <= 3)
+                    break;
+
+                Console.WriteLine("Érvénytelen választás! Csak 1, 2 vagy 3 lehet.");
+            }
+
+            switch (fitcel)
+            {
+                case 1:
+                    alapido = 50;
+                    kalszorzo = 0.11;
+                    break;
+                case 2:
+                    alapido = 40;
+                    kalszorzo = 0.095;
+                    break;
+                case 3:
+                    alapido = 30;
+                    kalszorzo = 0.14;
+                    break;
+            }
+
         }
     }
 }
