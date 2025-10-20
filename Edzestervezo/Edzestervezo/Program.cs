@@ -77,6 +77,53 @@ namespace FitProgram
                     break;
             }
 
+
+
+            int edzesNapok = 0;
+            while (true)
+            {
+                Console.Write("Hány napot edzenél hetente? (1-7): ");
+                if (int.TryParse(Console.ReadLine(), out edzesNapok) && edzesNapok >= 1 && edzesNapok <= 7)
+                    break;
+
+                Console.WriteLine("Adj meg egy számot 1 és 7 között!");
+            }
+
+
+            int[] napErosseg = new int[edzesNapok];
+
+            for (int i = 0; i < edzesNapok; i++)
+            {
+                while (true)
+                {
+                    Console.Write($"Add meg a(z) {i + 1}. nap edzésének erősségét (1-5): ");
+                    if (int.TryParse(Console.ReadLine(), out int szint) && szint >= 1 && szint <= 5)
+                    {
+                        napErosseg[i] = szint;
+                        break;
+                    }
+                    Console.WriteLine("Érvénytelen erősség! Csak 1 és 5 közötti szám lehet.");
+                }
+            }
+
+            double hetiOsszIdo = 0;
+            foreach (var szint in napErosseg)
+            {
+                hetiOsszIdo += alapido * (1 + szint * 0.1);
+            }
+
+
+            double osszKaloria = testsuly * hetiOsszIdo * kalszorzo;
+
+
+            Console.WriteLine("\n--- Heti Edzésterv Összegzés ---");
+            Console.WriteLine($"Név: {veznev} {kernev}");
+            Console.WriteLine($"Célkitűzés: {cellista[fitcel - 1]}");
+            Console.WriteLine($"Heti összes edzésidő: {hetiOsszIdo:F2} perc");
+            Console.WriteLine($"Becsült kalóriaégetés: {osszKaloria:F2} kcal");
+
+            Console.WriteLine("\nNyomj meg egy billentyűt a kilépéshez...");
+            Console.ReadKey();
         }
     }
 }
