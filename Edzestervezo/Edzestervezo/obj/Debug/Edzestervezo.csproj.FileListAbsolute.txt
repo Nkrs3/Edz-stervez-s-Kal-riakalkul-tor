@@ -1,0 +1,8 @@
+C:\Users\nagyk\Documents\Edzestervezo\Edz-stervez-s-Kal-riakalkul-tor\Edzestervezo\Edzestervezo\bin\Debug\Edzestervezo.exe.config
+C:\Users\nagyk\Documents\Edzestervezo\Edz-stervez-s-Kal-riakalkul-tor\Edzestervezo\Edzestervezo\bin\Debug\Edzestervezo.exe
+C:\Users\nagyk\Documents\Edzestervezo\Edz-stervez-s-Kal-riakalkul-tor\Edzestervezo\Edzestervezo\bin\Debug\Edzestervezo.pdb
+C:\Users\nagyk\Documents\Edzestervezo\Edz-stervez-s-Kal-riakalkul-tor\Edzestervezo\Edzestervezo\obj\Debug\Edzestervezo.csproj.AssemblyReference.cache
+C:\Users\nagyk\Documents\Edzestervezo\Edz-stervez-s-Kal-riakalkul-tor\Edzestervezo\Edzestervezo\obj\Debug\Edzestervezo.csproj.CoreCompileInputs.cache
+C:\Users\nagyk\Documents\Edzestervezo\Edz-stervez-s-Kal-riakalkul-tor\Edzestervezo\Edzestervezo\obj\Debug\Edzestervezo.exe
+C:\Users\nagyk\Documents\Edzestervezo\Edz-stervez-s-Kal-riakalkul-tor\Edzestervezo\Edzestervezo\obj\Debug\Edzestervezo.pdb
+C:\Users\nagyk\Documents\Edzestervezo\Edz-stervez-s-Kal-riakalkul-tor\Edzestervezo\Edzestervezo\obj\Debug\Edzestervezo.exe.config
